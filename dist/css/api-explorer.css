@@ -806,7 +806,8 @@
 }
 
 .swagger-section .token-generator .scope-selector {
-    padding: 15px 0
+    padding: 15px 0;
+    display:none
 }
 
 .swagger-section .token-generator .scope-selector:after {
@@ -1377,7 +1378,8 @@
 
 @media (min-width: 992px) {
     .changes-disclaimer {
-        display: block
+        display: none;
+	/* display:block */
     }
 }
 

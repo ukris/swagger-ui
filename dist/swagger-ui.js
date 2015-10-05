@@ -187,7 +187,7 @@ this["Handlebars"]["templates"]["main"] = Handlebars.template({"1":function(dept
     + "\n";
   stack1 = helpers['if'].call(depth0, ((stack1 = (depth0 != null ? depth0.info : depth0)) != null ? stack1.version : stack1), {"name":"if","hash":{},"fn":this.program(5, data),"inverse":this.noop,"data":data});
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "            </p>\n        </div>\n    </div>\n</div>\n\n<div id='resources_container'>\n    <ul id='resources' class=\"samples-collapsed\"></ul>\n</div>\n";
+  return buffer + "            </p>\n        </div>\n    </div>\n</div>\n\n<div id='resources_container'>\n  <div id='resources-wrapper'>\n  <ul id='resources' class=\"samples-collapsed\"></ul>\n</div>\n </div>\n";
 },"useData":true});
 this["Handlebars"]["templates"]["operation"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
   return "deprecated";
